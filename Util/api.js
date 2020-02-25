@@ -1,6 +1,7 @@
+const axios = require('axios')
 const api = {
-  getUser(username) {
-
+  getUser:  async function (username) {
+    return await axios.get(`https://api.github.com/users/${username}`)
   }
 };
 
