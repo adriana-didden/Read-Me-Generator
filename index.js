@@ -13,7 +13,7 @@ const questions =
         },
         {
             type: "input",
-            name: "email",
+            name: "UserEmail",
             question: "what's your email address?",
         },
 

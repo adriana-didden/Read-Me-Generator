@@ -25,7 +25,7 @@ ${data.commandRunTest}
 
 ##Questions
 ![user profile pic](${data.avatar_url})
-Questions, please email ${data.email}
+Questions, please email ${data.UserEmail}
 `;
 }
 
