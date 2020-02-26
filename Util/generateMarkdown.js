@@ -1,31 +1,42 @@
+
 function generateMarkdown(data) {
   console.log(data)
+
   return `
   # ${data.title}
-  ![user badge](https://img.shields.io/badge/license-${encodeURI(data.typeLicense)}-red)
 
+  ![user badge](https://img.shields.io/badge/license-${encodeURI(data.license)}-red)
+
+## Description \n 
   ${data.description}
 
 ## Table of Contents \n 
--[Installation](#Installation) \n
--[Usage](#Usage) \n
--[License](#License) \n
--[Contributing](#Contributing) \n
--[Tests](#Tests) \n
--[Questions](#Questions) \n
+- [Installation](#Installation) \n
+- [Usage](#Usage) \n
+- [License](#License) \n
+- [Contributing](#Contributing) \n
+- [Tests](#Tests) \n
+- [Questions](#Questions) \n
 
-##Installation
-${data.commandInstall}
+## Installation  \n
+${data.install}
 
-##Usage
-${data.usingRepo}
+## Usage \n
+${data.usage}
 
-##Tests
-${data.commandRunTest}
+## License \n
+This project is licensed under ${data.license} license.
 
-##Questions
-![user profile pic](${data.avatar_url})
-Questions, please email ${data.UserEmail}
+## Contributing \n
+${data.contributing}
+
+## Tests \n
+${data.runTest}
+
+## Questions \n
+<img src="${data.avatar_url}" width='100px' />
+
+If you have any questions, please contact ${data.login} directly at ${data.ContactEmail}. \n
 `;
 }
 

@@ -5,7 +5,7 @@ const generateMarkdown = require('./Util/generateMarkdown.js')
 
 const api = require('./Util/api.js')
 const questions =
-    [
+[
         {
             type: "input",
             name: "username",
@@ -13,7 +13,7 @@ const questions =
         },
         {
             type: "input",
-            name: "UserEmail",
+            name: "ContactEmail",
             question: "what's your email address?",
         },
 
@@ -29,28 +29,30 @@ const questions =
         },
         {
             type: "list",
-            name: "typeLicense",
+            name: "license",
             choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"],
             question: "what kind of license should your project have?",
         },
         {
             type: "input",
-            name: "commandInstall",
+            name: "install",
             question: "what command should be run to install dependencies?",
+            default:"npm install"
         },
         {
             type: "input",
-            name: "commandRunTest",
+            name: "runTest",
             question: "what command should be run to run tests?",
+            default:"npm test"
         },
         {
             type: "input",
-            name: "usingRepo",
+            name: "usage",
             question: "what does the user need to know about using the repo?",
         },
         {
             type: "input",
-            name: "contributeRepo",
+            name: "contribute",
             question: "what does the user need to know about contributing to the repo?"
         }
     ]
