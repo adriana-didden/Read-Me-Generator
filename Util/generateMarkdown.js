@@ -19,7 +19,9 @@ function generateMarkdown(data) {
 - [Questions](#Questions) \n
 
 ## Installation  \n
+\`\`\`
 ${data.install}
+\`\`\`
 
 ## Usage \n
 ${data.usage}
@@ -31,7 +33,9 @@ This project is licensed under ${data.license} license.
 ${data.contributing}
 
 ## Tests \n
+\`\`\`
 ${data.runTest}
+\`\`\`
 
 ## Questions \n
 <img src="${data.avatar_url}" width='100px' />

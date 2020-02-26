@@ -4,8 +4,9 @@ const fs = require("fs");
 const generateMarkdown = require('./Util/generateMarkdown.js')
 
 const api = require('./Util/api.js')
+
 const questions =
-[
+    [
         {
             type: "input",
             name: "username",
@@ -37,13 +38,13 @@ const questions =
             type: "input",
             name: "install",
             question: "what command should be run to install dependencies?",
-            default:"npm install"
+            default: "npm install"
         },
         {
             type: "input",
             name: "runTest",
             question: "what command should be run to run tests?",
-            default:"npm test"
+            default: "npm test"
         },
         {
             type: "input",
@@ -56,7 +57,7 @@ const questions =
             question: "what does the user need to know about contributing to the repo?"
         }
     ]
-    ;
+    
 const writeToFile = async (name, data) => {
     fs.writeFile(name, generateMarkdown(data), err => {
         if (err) throw err;

@@ -24,7 +24,9 @@
 
 ## Installation  
 
+```
 npm install
+```
 
 ## Usage 
 
@@ -40,7 +42,9 @@ undefined
 
 ## Tests 
 
+```
 npm test
+```
 
 ## Questions 
 
