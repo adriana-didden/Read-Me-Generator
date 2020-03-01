@@ -1,86 +1,54 @@
-# Read-Me-Generator
-# Unit 09 Node.js and ES6+ Homework: Good README Generator
 
-Create a command-line application that dynamically generates a README.md from a user's input. The application will be invoked with the following command:
+  # Read Me Generator
 
-```sh
-node index.js
-```
+  ![user badge](https://img.shields.io/badge/license-MIT-red)
 
-The user will be prompted for their GitHub username, which will be used to make a call to the GitHub API to retrieve their email and profile image. They will then be prompted with questions about their project.
+## Description 
+ 
+  using node, inquirer, the github api, build an application that builds a good readMe based on user input. 
 
-The README will be populated with the following:
+## Table of Contents 
+ 
+- [Installation](#Installation) 
 
-* At least one badge
-* Project titlez
-* Description
-* Table of Contents
-* Installation
-* Usage
-* License
-* Contributing
-* Tests
-* Questions
-  * User GitHub profile picture
-  * User GitHub email
+- [Usage](#Usage) 
 
-Following the [common templates for user stories](https://en.wikipedia.org/wiki/User_story#Common_templates), we can frame this challenge as follows:
+- [License](#License) 
+
+- [Contributing](#Contributing) 
+
+- [Tests](#Tests) 
+
+- [Questions](#Questions) 
+
+
+## Installation  
 
 ```
-AS A developer
-
-I WANT a README generator
-
-SO THAT I can easily put together a good README for a new project
+npm install
 ```
 
-Refer to the [Good README guide](../../01-HTML-Git-CSS/04-Supplemental/Good-README-Guide/README.md).
+## Usage 
 
-## Business Context
+nothing
 
-When preparing a report for stakeholders, it is important to have up-to-date information about members of the development team. Rather than navigating to each team member's GitHub profile, a command-line application will allow for quick and easy generation of profiles in PDF format.
+## License 
 
-## Minimum Requirements
+This project is licensed under MIT license.
 
-* Functional, deployed application.
+## Contributing 
 
-* GitHub repository with a unique name and a README describing project.
+undefined
 
-* The generated README includes a bio image from the user's GitHub profile.
-
-* The generated README includes the user's email.
-
-* The generated README includes the following sections: 
-  * Title
-  * Description
-  * Table of Contents
-  * Installation
-  * Usage
-  * License
-  * Contributing
-  * Tests
-  * Questions
-
-* The generated README includes 1 badge that's specific to the repository.
+## Tests 
 
 ```
-GIVEN the developer has a GitHub profile and a repository
-
-WHEN prompted for the developer's GitHub username and repo specific information
-
-THEN a README for the repo is generated
+npm test
 ```
-- - -
 
-## Submission on BCS
+## Questions 
 
-You are required to submit the following:
+<img src="https://avatars3.githubusercontent.com/u/46576203?v=4" width='100px' />
 
-* An animated GIF demonstrating the app functionality
+If you have any questions, please contact adriana-didden directly at adrianadidden@gmail.com. 
 
-* A generated PDF of your GitHub profile
-
-* The URL of the GitHub repository
-
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
